@@ -1,0 +1,130 @@
+* {
+    margin: auto;
+    font-family: cursive;
+}
+
+body {
+    background-color: #70846b;
+    font-family: -apple-system;
+    margin: 15%;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    width: auto;
+}
+
+
+/* Link Annimationt-start*/
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+
+/* Link Annimationt-end*/
+
+
+/* Top Section Start*/
+
+.CandidateName {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 5px;
+    color: white;
+    background: linear-gradient(135deg, transparent 44px, #066121 0);
+}
+
+.PinkBar {
+    position: relative;
+    background-color: purple;
+    padding-top: 30px;
+}
+
+.CandidatePhotoAndDetails {
+    display: flex;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.TextAlign {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2px;
+    width: 40px;
+    height: 30px;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+}
+
+
+/* Top Section Start */
+
+
+/*Summary Start*/
+
+.CandidateSummary {
+    background-color: rgb(7, 6, 77);
+    color: white;
+    padding: 24px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/*Summary end*/
+
+
+/*Candidate education,skills and work experience details starts*/
+
+.CandidateQualificationDetails {
+    padding: 24px;
+    background: rgb(172, 109, 16);
+    color: #ffdead;
+}
+
+.CandidateSkillsContainer {
+    background: rgb(172, 109, 16);
+    color: #ffdead;
+    padding: 20px;
+}
+
+.CandidateSkills {
+    display: flex;
+}
+
+.CandidateBuisnesSkills {
+    width: 33%;
+}
+
+.CandidateTechnicalSkills {
+    width: 33%;
+}
+
+.CandidatePersonalSkills {
+    width: 25%;
+}
+
+.CandidateWorkExperienceContainer {
+    background-color: rgb(7, 6, 77);
+    color: white;
+    font-size: 20px;
+    padding: 24px;
+}
+
+
+/*Candidate education,skills and work experience details end*/

@@ -1,0 +1,225 @@
+* {
+    font-family: system-ui;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+
+/*Start-Header Section */
+
+.Header {
+    background-color: whitesmoke;
+    padding-left: 165px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.Header h1 {
+    margin: 0px;
+}
+
+.Header h4 {
+    color: #aaa6a6;
+    margin: 5px;
+}
+
+.Navigation {
+    padding: 5px;
+}
+
+.NoBullets {
+    display: flex;
+    font-size: 15px;
+    padding-left: 150px;
+}
+
+.NoBullets li {
+    padding: 20px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+ul li:hover {
+    background: rgb(252, 2, 2);
+}
+
+.NoBullets li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* end-Header Section */
+
+
+/* start-Link Annimationt*/
+
+
+/* end-Link Annimationt*/
+
+
+/* Start-Main Image Section*/
+
+.MainImage img {
+    width: 100%;
+}
+
+
+/* end-Main Image*/
+
+
+/* Start-Description Section*/
+
+.Description {
+    display: flex;
+    padding: 20px;
+    text-align: justify;
+}
+
+.ParagraphLeft {
+    padding-left: 130px;
+    padding-right: 45px;
+    width: 35%;
+}
+
+.ParagraphRight {
+    padding-left: 45px;
+    padding-right: 130px;
+    width: 60%;
+}
+
+
+/* end-Description Section*/
+
+
+/* Start-Gallery and Logo section */
+
+.GalleryAndLogoPage {
+    display: flex;
+    padding: 20px;
+    text-align: justify;
+}
+
+.GalleryText {
+    padding-left: 130px;
+    padding-right: 45px;
+    width: 35%;
+}
+
+.Logo {
+    padding-left: 50px;
+    padding-right: 130px;
+    width: 60%;
+}
+
+.Grid {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    row-gap: 12%;
+    column-gap: 7%;
+    padding-bottom: 150px;
+}
+
+.Logo img {
+    width: 150px;
+}
+
+
+/* End-Gallery and Logo section */
+
+
+/*Start-Footer*/
+
+.Footer {
+    background-color: rgb(90, 43, 184);
+    padding-left: 200px;
+    padding-right: 150px;
+    display: flex;
+    color: rgb(226, 226, 226);
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.MapAndAddress {
+    padding: 5px;
+}
+
+.AboutthePage {
+    padding: 5px;
+}
+
+.Archives {
+    padding: 5px;
+}
+
+.FooterNavigation {
+    padding: 5px;
+}
+
+
+/*Start-Mobile screen*/
+
+@media screen and (max-width: 600px) {
+    #AboutPage {
+        width: 100%;
+        flex-direction: column;
+    }
+    .Header {
+        width: 100%;
+        margin: 0px;
+        padding: 15px;
+    }
+    .NoBullets {
+        padding: 0px;
+    }
+    .Description {
+        flex-direction: column;
+        width: 90%;
+        padding: 15px;
+    }
+    .ParagraphLeft {
+        width: 100%;
+        padding: 0px;
+    }
+    .ParagraphRight {
+        width: 100%;
+        padding: 0px;
+    }
+    .ParagraphRight h2 {
+        text-align: left;
+    }
+    .GalleryAndLogoPage {
+        flex-direction: column;
+    }
+    .GalleryText {
+        width: 100%;
+        padding: 0px;
+    }
+    .Logo {
+        padding: 0px;
+        width: 100%;
+    }
+    .Grid {
+        grid-template-columns: 50px 50px;
+        column-gap: 40%;
+        row-gap: 0px;
+    }
+    .MainImage {
+        width: 100%;
+    }
+    .Footer {
+        flex-direction: column;
+        padding: 0px;
+        text-align: center;
+    }
+    .Archives {
+        text-align: center;
+    }
+}
+
+
+/*End-Mobile screen*/

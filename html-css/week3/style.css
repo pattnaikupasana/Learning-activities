@@ -1,0 +1,292 @@
+/*Start-Common*/
+
+* {
+    padding: 5px;
+    margin: 0px;
+}
+
+body {
+    padding: 30px 70px;
+    font-family: system-ui;
+}
+
+.header {
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    display: inline;
+}
+
+.logo img {
+    width: 10%;
+    padding-bottom: 30px;
+}
+
+.Navigation {
+    width: 50%;
+    float: right;
+    padding: 10px;
+    display: inline;
+}
+
+.Navigation ul {
+    display: flex;
+    float: right;
+    list-style: none;
+}
+
+.Navigation ul li {
+    padding: 5px;
+}
+
+.Navigation ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/*Start-progressbar*/
+
+.fullBar {
+    color: #000;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2em;
+}
+
+.progressBar {
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2em;
+}
+
+.progressText {
+    font-weight: bold;
+}
+
+
+/*End-progressbar*/
+
+
+/*End-Common*/
+
+
+/*Start-frontpage*/
+
+#frontPage h1 {
+    font-family: cursive;
+}
+
+#frontPage {
+    background-image: linear-gradient(to bottom right, #FD7B47, #FF509B);
+    text-align: center;
+    padding: 25px;
+}
+
+#frontPage button {
+    width: 10em;
+    height: 3em;
+    border-radius: 2em;
+    background-color: chartreuse;
+    font-weight: bold;
+    list-style: none;
+}
+
+#frontPage a {
+    text-decoration: none;
+}
+
+
+/*End-frontpage*/
+
+
+/*Start-customer infomration*/
+
+.signupDetails {
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.customerDetails {
+    padding: 15px 40px 5% 20px;
+}
+
+.fname,
+.lname,
+.saddress,
+.pcode {
+    height: 40px;
+    width: 30%;
+}
+
+.flname {
+    padding-left: 50px;
+}
+
+.country {
+    padding: 5px 0px 5px 72px;
+}
+
+.selectCountry {
+    height: 40px;
+    width: 25%;
+    padding: 5px 0px 5px 0px;
+}
+
+.address {
+    padding: 0px 0px 5px 25px;
+}
+
+.profileInputField {
+    width: 55%;
+    height: 200px;
+    position: absolute;
+}
+
+.profileDescription {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.profileDescription p {
+    width: 16%;
+    font-size: 13px;
+    font-style: italic;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.nextPage label {
+    padding-right: 10px;
+}
+
+.checkBox {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    padding-left: 5px;
+}
+
+.nextPage {
+    padding-top: 2%;
+}
+
+.nextStep {
+    float: right;
+    height: 50px;
+    width: 100px;
+    border-radius: 1em;
+}
+
+.nextStep a {
+    text-decoration: none;
+}
+
+
+/*End-customer infomration*/
+
+
+/*Start-contact page*/
+
+.eEmail {
+    padding-left: 50px;
+}
+
+.email,
+.phone,
+.pPassowrd,
+.rPassowrd {
+    height: 40px;
+    width: 300px;
+}
+
+.contactDetails {
+    padding-left: 44px;
+}
+
+.password {
+    padding: 10px 0px 0px 66px;
+}
+
+.rePassword {
+    padding: 10px 5px 25px 0px;
+}
+
+.newsletter {
+    padding-top: 20px;
+}
+
+.newsletter label {
+    padding: 20px;
+}
+
+
+/*End-contact page*/
+
+
+/*Start-selection page*/
+
+.types {
+    width: 100%;
+}
+
+.selectionBlockLeft,
+.selectionBlockRight {
+    float: left;
+    padding-right: 80px;
+    font-weight: bold;
+    width: 30%;
+}
+
+.Apparal {
+    padding-left: 27px;
+    padding-bottom: 5px;
+}
+
+.Handbags {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.Shoes {
+    padding-left: 13px;
+    padding-top: 5px;
+}
+
+.selectionMessage {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.imagesrow {
+    padding-top: 40px;
+}
+
+.row1,
+.row2 {
+    width: 100%;
+    display: flex;
+}
+
+.image img {
+    width: 60%;
+    padding: 10px;
+    padding-right: 61px;
+}
+
+.image label {
+    padding-left: 80px;
+}
+
+.select1 {
+    max-width: 25%;
+}
+
+
+/*End-selection page*/

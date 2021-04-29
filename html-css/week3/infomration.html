@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="customerInformation">
+        <div class="header">
+            <div class="logo">
+                <img src="https://s3images.coroflot.com/user_files/individual_files/large_178895_4JjR5ov9PnIGY7Qun00Niab4o.jpg" alt="logo image">
+            </div>
+            <div class="Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="infomration.html">Infomration</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="selection.html">Selection</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="signupDetails">
+            <h1>Sign up to yourcustomtailor.com</h1><br>
+            <p>We can't wait to help you improve your life-style and gain the attention from people around you! </p>
+            <br>
+            <p>Sign up below to save up to 70% on apparel, hand-bags and cosmetics. Our agents are busy picking the best offers that match your prefences and style. Every week we will send you a hand-picked selection - we just need to know a few details
+                about your first.</p>
+        </div>
+
+        <h2>Step 1/4 - tell us who you are?</h2><br>
+
+        <label class="progressText">Progress</label>
+        <div class="fullBar">
+            <div class="progressBar" style="height:24px;width:25%">Step1</div>
+        </div>
+        <p>Nice to meet you. Let’s spend a minute to get to know each other? Please enter the following:</p><br>
+
+        <form action="index.html">
+            <div class="customerDetails">
+                <div class="name">
+                    <label class="flname">First Name*</label>
+                    <input type="text" name="firstName" class="fname" required="">
+
+                    <label class="llname">Last Name*</label>
+                    <input type="text" name="lastName" class="lname" required="">
+                </div>
+                <div class="country">
+                    <label>Country*</label>
+                    <select class="selectCountry" required="">
+                        <option value="" disabled selected>Select country name</option>
+                        <option value="India">India</option>
+                        <option value="Åland Islands">Åland Islands</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="American Samoa">American Samoa</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Angola">Angola</option>
+                        <option value="Anguilla">Anguilla</option>
+                        <option value="Antarctica">Antarctica</option>
+                    </select>
+                </div>
+                <div class="address">
+                    <label>Street Address*</label>
+                    <input type="text" name="streetAddress" class="saddress" required="">
+                    <label>Post Code*</label>
+                    <input type="text" name="postCode" class="pcode" required="">
+                </div>
+                <div class="profileDescription">
+                    <label> Profile description*</label>
+                    <input type="text" class="profileInputField" required="">
+                    <p>Please provide a short description of yourself to be displayed on our social community pages.</p>
+                </div>
+            </div>
+            <p>Use the same address for billing and shipping? Uncheck below to fill out a separate shipping address.</p>
+            <div class="nextPage">
+                <label>Shipping address</label>
+                <input type="checkbox" class="checkBox" checked>
+                <button class="nextStep"> <a href="contact.html">Next</a> </button>
+
+            </div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
