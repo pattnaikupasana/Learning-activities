@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="flightBooking.js"></script>
+    <script src="eventApplication.js"></script>
+    <script src="weatherWear.js"></script>
+    <script src="studentManager.js"></script>
+
+</head>
+
+<body>
+    <!--Start-flightBooking -->
+    <h1>Flight Booking</h1>
+    <div id="add1"></div>
+    <div id="add2"></div>
+    <div id="add3"></div>
+    <div id="add4"></div>
+    <div id="add5"></div>
+    <div id="add6"></div>
+    <div id="add7"></div>
+    <script>
+        //input
+        fullname1 = getFullName("Upasana", "Panda");
+        fullname2 = getFullName("Hara", "Pattnaik");
+        fullname3 = getFullName("Upasana", "Panda", true);
+        fullname4 = getFullName("Hara", "Pattnaik", false);
+        fullname5 = getFullName("Upasana", "Panda", true, "male");
+        fullname6 = getFullName("Upasana", "Panda", true, "female");
+        fullname7 = getFullName("Hara", "Pattnaik", false, "male");
+        //output
+        document.getElementById("add1").innerHTML = fullname1;
+        document.getElementById("add2").innerHTML = fullname2;
+        document.getElementById("add3").innerHTML = fullname3;
+        document.getElementById("add4").innerHTML = fullname4;
+        document.getElementById("add5").innerHTML = fullname5;
+        document.getElementById("add6").innerHTML = fullname6;
+        document.getElementById("add7").innerHTML = fullname7;
+    </script>
+    <!--End-flightBooking -->
+
+    <!--Start-event day calculate -->
+    <h1>Event day calculator</h1>
+    <div id="eday"></div>
+    <script>
+        //input
+        eventDay = calculateWeekday(2);
+        //output
+        document.getElementById("eday").innerHTML = `Event is on ${eventDay}`;
+    </script>
+    <!--End-event day calculate -->
+
+    <!--Start-watherWear -->
+    <h1>what to wear ?</h1>
+    <div id=wear></div>
+    <script>
+        //input
+        clothesToWear = weatherWear(27);
+        //output
+        document.getElementById("wear").innerHTML = clothesToWear;
+    </script>
+    <!--End-watherWear -->
+
+    <!--Start-studentManagement -->
+    <h1>student Management</h1>
+    <div id="student"></div>
+    <div id="student1"></div>
+    <div id="student2"></div>
+    <div id="student3"></div>
+    <div id="student4"></div>
+    <div id="student5"></div>
+    <div id="student6"></div>
+    <div id="student7"></div>
+    <div id="student8"></div>
+    <div id="student9"></div>
+    <div id="student10"></div>
+    <div id="student11"></div>
+
+    <script>
+        document.getElementById("student").innerHTML = addStudentToClass('hara', false);
+        document.getElementById("student1").innerHTML = addStudentToClass('hara', false);
+        document.getElementById("student2").innerHTML = addStudentToClass('');
+        document.getElementById("student3").innerHTML = addStudentToClass('upasana', false);
+        document.getElementById("student4").innerHTML = addStudentToClass('ashley', false);
+        document.getElementById("student5").innerHTML = addStudentToClass('amar', false);
+        document.getElementById("student6").innerHTML = addStudentToClass('John', false);
+        document.getElementById("student7").innerHTML = addStudentToClass('Dean', false);
+        document.getElementById("student8").innerHTML = addStudentToClass('Rick', true);
+        document.getElementById("student9").innerHTML = addStudentToClass('John', false);
+        document.getElementById("student10").innerHTML = addStudentToClass('Margrethe', false);
+        document.getElementById("student11").innerHTML = class07Students;
+    </script>
+
+    <!--End-studentManagement -->
+</body>
+
+</html>
