@@ -1,6 +1,6 @@
-function calculateWeekday(eventDaysNumber) {
-    let weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
-    let eventDay = (new Date().getDay() + eventDaysNumber) % 7;
+function calculateWeekday(eventDaysNumber) {
+    const eventDay = (new Date().getDay() + eventDaysNumber) % 7;
     return weekdays[eventDay];
 }
