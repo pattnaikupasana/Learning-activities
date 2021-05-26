@@ -6,11 +6,18 @@ function saveNote(content, id) {
         content: content,
         id: id,
     };
-    notes.push(arrayIndex);
+    for (let i = 0; i < notes.length; i++) {
+        if (notes[i].id === id) {
+            return 'same id is available'
+        } else {
+            notes.push(arrayIndex);
+        }
+    }
+
 }
 
 saveNote("Pick up groceries", 1);
-saveNote("Do laundry", 2);
+saveNote("Do laundry", 1);
 
 console.log(notes);
 /* now arrar is 
