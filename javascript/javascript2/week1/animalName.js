@@ -10,7 +10,6 @@ const animalList = ['Ether',
     'The Bloodied Wraith',
 ]
 
-
 function spiritAnimalNamesGenerator(name) {
     return `${name} - ${animalList [parseInt(Math.random()*10)]}`
 }

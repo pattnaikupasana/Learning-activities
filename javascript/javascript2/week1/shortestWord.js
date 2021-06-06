@@ -13,5 +13,4 @@ function shortWord(danshWords) {
         }
     }
     return shortestWord;
-
 }

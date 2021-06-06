@@ -6,6 +6,7 @@ function danishCharacterCalcualtion(danishString) {
     return `total: ${total}, æ: ${æ.length}, ø: ${ø.length}, ${å.length}: 1`;
 }
 
+
 let danishString = "Blå grød med røde bær"
 const body1 = document.querySelector('body')
 const div1 = document.createElement('div')
