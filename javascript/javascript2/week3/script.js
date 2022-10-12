@@ -17,7 +17,8 @@ stringAfterDelay(5, 'This string is running after 5 seconds');
 
 // 3. Create a button in html. When clicking this button, use the function you created in the previous task
 // to log out the text: Called after 5 seconds 5 seconds after the button is clicked.
-
+let $ = (id) => { return document.getElementById(id) }
+const delayButton = $('button')
 const delayButton = document.getElementById('button');
 delayButton.addEventListener('click', onclick => {
     stringAfterDelay(5, 'Called after 5 seconds after the button is clicked');
